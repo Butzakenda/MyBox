@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.background{
+    border: 15px solid green;
+    
+}
+div.main{
+    border: 5px solid blue;
+    height: auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    justify-content: center;
+    background-image: url(../img/Boceto1/4814407.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+.main > div{
+    /* border: 2px solid black; */
+    margin: 20px;
+}
+
+div.only{
+    grid-template-columns: 50%;
+    color: white;
+    border: 2px solid white;
+}
+
+div.much{
+    /* margin: 5px; */
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: auto;
+    width: auto;
+    row-gap: 15px;
+    column-gap: 15px;
+    padding: 0;
+
+}
+        .much > div{
+            border: 2px solid white;
+            /* margin: 0 auto; */
+            min-height: auto;
+            /* padding: 0 1em; */
+            zoom: normal;
+            margin-left: 150px;
+            width: auto;
+            padding-top: 2px;
+            margin-inline: auto;
+        }
+/* margin-inline: auto; */
+/* width: min(100% - 2rem, 20px); */
+p{
+    margin-inline: auto;
+    /* width: min(100% - 2rem, 20px); */
+    color: white;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 5px   ;
+}
+.color{
+    background-color: rgba(172, 170, 170, 0.885);
+    
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+    width: 90px;
+    
+}
+.tituloIzq{
+    color: white;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    /* border: 2px solid black; */
+    margin-inline: auto;
+    padding: auto;
+}
+.NavIndice{
+    /* border: 2px solid black; */
+    margin:0px;
+    color: white;
+}
+div.news{
+    /* border: 2px solid white; */
+    height: auto;
+    gap: 100px;
+    
+} 
+.news > div{
+    /* background-color: black; */
+    color: white;
+    justify-content: center;
+    border: 2px solid white;
+    display: block;
+    grid-template-columns: 90%;
+    height: 300px;
+    border-radius: 30px 30px 30px 30px;
+
+    row-gap: 150px;
+}
+a{
+    color: white;
+    font-size: 17px;
+    font-weight: 100;
+}
+.tituloDer{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    /* border: 2px solid black; */
+    margin-inline: auto;
+    padding: auto;
+}
+.newsDx{
+    color: white;
+    text-align: center;
+}
+
+.Downpoint{
+    margin-inline: auto ;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+tr{
+    justify-content: center;
+    bottom: 0px;
+}

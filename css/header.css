@@ -1,0 +1,12 @@
+header{
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 35px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 2px solid white;
+    color: white;
+}
+.header{
+    text-align: center;
+}
